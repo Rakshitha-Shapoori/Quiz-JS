@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="index.css">
+   <script src="index.js" defer></script>
+</head>
+<body>
+    <div id="username" >
+        <h1>JS-Quiz</h1>
+        <label for="name" class="name" >Enter your Name</label>
+        <input type="text" id="name" value="" class="name" />
+        <div id="error" style="text-align:center; display: none">error</div>
+    </br>
+        <button id="signin">Start the Quiz</button>
+    </div>
+    <div id="quiz-container" style="display:none;">
+        <div id="header">
+            <p id="timeleft">Timeleft:</p>
+            <p id="mincount"></p>
+            <p>:</p>
+            <p id="seccount"></p>
+    
+        </div>
+       <h3>Question</h3>
+       <hr>
+        <div id="question-container" >
+            <h4 id="question-text">question-text</h4>
+        </div>
+        <div id="option-container">
+            <ul>
+                <li> <input type="radio" id="a" name="1">
+                    <label for="a"id="option1" > option-1</label></li>
+           <li>
+            <input type="radio" id="b" name="1">
+            <label for="b" id="option2"> option-2</label>
+           </li>
+           <li>
+            <input type="radio" id="c" name="1">
+            <label for="c" id="option3"> option-3</label>
+           </li>
+            <li>
+                <input type="radio" id="d" name="1">
+            <label for="d" id="option4" > option-4</label>
+            </li>
+            
+        </ul>
+        </div>
+        <div id="button-container" style="text-align:center">
+            <button id="next-question">Next</button>
+            <button id="exit">Exit</button>
+        </div>
+    </div>
+<div id="result" style="display: none">
+   <h3 id="result-text">score</h3>
+   <button id="reload" style="text-align:center">Retake Quiz</button>
+</div>
+</body>
+</html>

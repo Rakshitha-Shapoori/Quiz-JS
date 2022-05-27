@@ -1,0 +1,90 @@
+#username{
+  display:flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  background-color: white;
+  color:black;
+  padding: 0% 10% 5% 10%;
+  font-size: xx-large;
+}
+
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* text-align: center; */
+  padding: 5% 15% 0% 15%;
+  scroll-behavior: none;
+  background-color: rgb(166, 169, 201);;
+  
+}
+
+.name{
+  padding: 4%;
+}
+#name{
+  width: 30vw;
+ 
+}
+#name:focus{
+  background-color: lightgray;
+ font-size: 20px;
+}
+button{
+  font-size: 50%;
+  border: 2px solid rgb(7, 7, 7);
+  border-radius: 10px;
+  background-color:rgb(166, 169, 201); 
+  color: black;
+  padding: 3% 5% 3% 5%;
+}
+button:hover{
+  font-size: 50%;
+  border: 2px solid rgb(7, 7, 7);
+  border-radius: 10px;
+  background-color:rgb(97, 247, 60); 
+  color: rgb(8, 11, 11);
+  padding: 3% 5% 3% 5%;
+}
+#header{
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+   float: right;
+   font-size: 70%;
+   color: red;
+ 
+}
+#quiz-container{
+  display:flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  background-color: white;
+  color:black;
+  padding: 0% 10% 5% 10%;
+  font-size:xx-large;
+}
+/* #option-container{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+} */
+ul{
+  list-style-type: none;
+}
+#exit:hover{
+  background-color: red;
+}
+#result{
+  display:flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  background-color: white;
+  color:black;
+  padding: 0% 10% 5% 10%;
+  font-size:xx-large;
+  text-align: center;
+}
