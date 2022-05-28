@@ -121,6 +121,7 @@ loadques();
      resultdiv.style.display="none";
      quiz.style.display="block";
      curques=0;
+     score=0;
     loadques();
      bool = true;
     //setInterval(countdown,1000);
